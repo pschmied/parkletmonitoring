@@ -1,0 +1,73 @@
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+TITLE: Comparison of Black Carbon and Noise Levels at Seattle's Parklets / Streateries
+#+DATE: 2015-06-01 || URBDP 598I -- Transportation and the Environment
+#+AUTHOR: Sarah Titcomb \& Peter Schmiedeskamp
+#+OPTIONS: toc:nil
+#+LaTeX_CLASS_OPTIONS: [bigger]
+
+
+* Introduction & Research Questions
+** Parklets & Streateries
+- 2013, Seattle began permitting on-street parking conversion to
+   public space
+- Open 24/7, but often used as additional seating for adjacent
+   business during business hours
+- Seen as neighborhood amenity, improvement of public space
+** Do parklets pose a threat to human health?
+- Air quality (i.e. black carbon from vehicle emissions)
+- Exposure to noise
+- Comparison of adjacent indoor levels to outdoor parklet levels
+
+
+* Data collection: Three Locations
+- Cortona Cafe
+- Montana Bar
+- SIFF Theater / Uptown Espresso
+
+INSERT MAPS OF PARKLETS HERE
+
+* Data collection: Cortona Cafe
+INSERT PICTURE
+- Central District
+- Typical Cafe hours
+- Two lane road
+- Near residential
+- Was being used each visit
+
+* Data collection: Montana Bar
+INSERT PICTURE
+- Capitol Hill
+- Late afternoon / early evening bar crowd
+- Commercial area
+- Busy road, busy sidewalk, busy parklet
+
+* Data collection: SIFF / Uptown Espresso
+INSERT PICTURE
+- Lower Queen Anne
+- Mid-afternoon coffee / sunshine crowd
+- Uptown Espresso on same block face (easier access than SIFF proper)
+- On busy bus route (D-line + other routes)
+- Shared with one or two other people each time
+
+* Methodology: Sampling
+** Gear
+- AE51
+- Decibel 10th (iPhone & iPad---uncalibrated, but same device at each
+  site pair)
+** Sample strategy
+- 4 pairs of samples at each site
+- 15 minute sample frame Decibel 10th
+- 15 minute AE51 at SIFF, 30 minute black carbon at Cortona & Montana
+- AE51: 150ml flow rate, 30 second interval
+
+* Methodology: Analysis
+** Data cleaning / post-processing
+- Add site and indoor/outdoor fields
+- Concatenate samples
+- Did NOT filter extreme / negative values (more on why later)
+** Exploratory data analysis 
+** BEST (Kruschke 2013) for statistical comparison of indoor / outdoor samples
+- One comparison per sample site (i.e. Cortona indoor vs. Cortona outdoor, etc.)
+- All sample frames combined
+- Bayesian posterior 
