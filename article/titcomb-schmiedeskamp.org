@@ -8,7 +8,19 @@
 
 
 #+BEGIN_ABSTRACT
-     Abstract stuff!
+This paper examines exposure to noise and black carbon pollutants at
+Seattle's roadside parklets. The paper reviews the history and
+purported benefits of parklet programs, as well as an original study
+we conducted. In our study we collected several indoor / outdoor
+paired samples for noise and black carbon at three parklet sites. We
+then made statistical comparisons between the indoor and outdoor
+samples at each site. In all cases, we found statistically significant
+differences between indoor and outdoor samples, however the nature of
+the relationship differed depending on site and measured
+pollutant. Further, most effect sizes were small. Finally, even where
+effect sizes were small, the estimated pollutant levels were typically
+below or at the bottom end of established thresholds for harms to
+human health.
 #+END_ABSTRACT
 
 * Introduction and Problem Statement
