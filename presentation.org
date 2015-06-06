@@ -5,7 +5,7 @@
 #+AUTHOR: Sarah Titcomb \& Peter Schmiedeskamp
 #+OPTIONS: toc:nil
 #+LaTeX_CLASS_OPTIONS: [bigger]
-
+#+COLUMNS: %45ITEM %10BEAMER_ENV(Env) %10BEAMER_ACT(Act) %4BEAMER_COL(Col) %8BEAMER_OPT(Opt)
 
 * Introduction & Research Questions
 ** Parklets & Streateries
@@ -14,21 +14,29 @@
 - Open 24/7, but often used as additional seating for adjacent
    business during business hours
 - Seen as neighborhood amenity, improvement of public space
-** Do parklets pose a threat to human health?
+** Do parklets pose additional threat to human health?
 - Air quality (i.e. black carbon from vehicle emissions)
 - Exposure to noise
 - Comparison of adjacent indoor levels to outdoor parklet levels
 
 
 * Data collection: Three Locations
-- Cortona Cafe
-- Montana Bar
-- SIFF Theater / Uptown Espresso
-
-INSERT MAPS OF PARKLETS HERE
+[[./results/figures/parklet-map.pdf]]
 
 * Data collection: Cortona Cafe
-INSERT PICTURE
+** Pic                                                               :BMCOL:
+:PROPERTIES:
+:BEAMER_col: .6
+:END:
+#+ATTR_LATEX: :width \textwidth 
+[[./results/figures/cortona.png]]
+
+\tiny{(http://www.seattle.gov/transportation/parklets.htm)}
+
+** Points                                                            :BMCOL:
+:PROPERTIES:
+:BEAMER_col: .4
+:END:
 - Central District
 - Typical Cafe hours
 - Two lane road
@@ -36,23 +44,47 @@ INSERT PICTURE
 - Was being used each visit
 
 * Data collection: Montana Bar
-INSERT PICTURE
+** Pic                                                               :BMCOL:
+:PROPERTIES:
+:BEAMER_col: .6
+:END:
+#+ATTR_LATEX: :width \textwidth 
+[[./results/figures/montana.jpg]]
+
+\tiny{(http://sdotblog.seattle.gov/2013/09/18/seattles-first-parklet-opens-today/)}
+
+** Points                                                            :BMCOL:
+:PROPERTIES:
+:BEAMER_col: .4
+:END:
 - Capitol Hill
 - Late afternoon / early evening bar crowd
 - Commercial area
 - Busy road, busy sidewalk, busy parklet
 
 * Data collection: SIFF / Uptown Espresso
-INSERT PICTURE
+** Pic                                                                :BMCOL:
+:PROPERTIES:
+:BEAMER_col: .6
+:END:
+#+ATTR_LATEX: :width \textwidth 
+[[./results/figures/siff.jpg]]
+
+\tiny{(http://www.komonews.com/seattlerefined/lifestyle/Meet-the-Uptown-Parklet-292782321.html)}
+
+** Points                                                            :BMCOL:
+:PROPERTIES:
+:BEAMER_col: .4
+:END:
 - Lower Queen Anne
 - Mid-afternoon coffee / sunshine crowd
-- Uptown Espresso on same block face (easier access than SIFF proper)
-- On busy bus route (D-line + other routes)
-- Shared with one or two other people each time
+- Uptown Espresso on same block face
+- On busy bus route (D-line, others)
+- Shared with one or two others each time
 
 * Methodology: Sampling
 ** Gear
-- AE51
+- Aethlabs AE51
 - Decibel 10th (iPhone & iPad---uncalibrated, but same device at each
   site pair)
 ** Sample strategy
@@ -61,13 +93,80 @@ INSERT PICTURE
 - 15 minute AE51 at SIFF, 30 minute black carbon at Cortona & Montana
 - AE51: 150ml flow rate, 30 second interval
 
-* Methodology: Analysis
-** Data cleaning / post-processing
+* Black carbon sample / EDA
+** Pic                                                                :BMCOL:
+:PROPERTIES:
+:BEAMER_col: .65
+:END:
+#+ATTR_LATEX: :width \textwidth 
+[[./results/figures/blackcarbon-box.pdf]]
+
+** Points                                                            :BMCOL:
+:PROPERTIES:
+:BEAMER_col: .35
+:END:
 - Add site and indoor/outdoor fields
 - Concatenate samples
-- Did NOT filter extreme / negative values (more on why later)
-** Exploratory data analysis 
-** BEST (Kruschke 2013) for statistical comparison of indoor / outdoor samples
-- One comparison per sample site (i.e. Cortona indoor vs. Cortona outdoor, etc.)
-- All sample frames combined
-- Bayesian posterior 
+- Did NOT filter extreme / negative values
+
+
+* Previous sampling
+
+#+ATTR_LATEX: :height 0.8\textheight
+[[./results/figures/oldblackcarbon-box.pdf]]
+
+* Noise sample / EDA
+** Pic                                                                :BMCOL:
+:PROPERTIES:
+:BEAMER_col: .65
+:END:
+#+ATTR_LATEX: :width \textwidth 
+[[./results/figures/noise-box.pdf]]
+
+** Points                                                            :BMCOL:
+:PROPERTIES:
+:BEAMER_col: .35
+:END:
+- Use mean DB level reported 0.1 seconds by Decibel 10th app
+- Aggregate by mean in 10 second intervals
+- Implications of aggregation
+
+* Methodology: Analysis
+** BEST (Kruschke 2013) to compare in-/outdoors
+- One comparison per site (indoor v. outdoor)
+- Bayesian posterior obtained via MCMC
+- Reasonable accommodation of outliers
+- Richer inference than, e.g. t-test
+
+
+* Results: Cortona Black Carbon
+[[./results/figures/best_bc_cortona.pdf]]
+
+* Results: Montana Black Carbon
+[[./results/figures/best_bc_montana.pdf]]
+
+* Results: SIFF / Uptown Black Carbon
+[[./results/figures/best_bc_siff.pdf]]
+
+
+
+* Results: Cortona Noise
+[[./results/figures/best_noise10_cortona.pdf]]
+
+* Results: Montana Noise
+[[./results/figures/best_noise10_montana.pdf]]
+
+* Results: SIFF / Uptown Noise
+[[./results/figures/best_noise10_siff.pdf]]
+
+
+* Conclusions
+- Black Carbon exposure site specific
+- Worth noting that outdoor BC exposure higher the more commercial
+  areas, but too few sites measured to make generalization.
+- Preliminary results indicate noise higher indoors than outdoors,
+  with exception of Cortona location, which has comparable levels
+
+* References
+Kruschke, John K. "Bayesian estimation supersedes the t test."
+/Journal of Experimental Psychology/: General 142, no. 2 (2013): 573.
