@@ -1,0 +1,476 @@
+#+TITLE: Potential Health Risks From Seattle's Parklet and Streateries Program
+#+AUTHOR: Sarah Titcomb & Peter Schmiedeskamp
+#+OPTIONS: toc:nil num:nil ':t
+#+LATEX_HEADER: \usepackage[authordate,strict,babel=other,bibencoding=inputenc,isbn=false,annotation=true]{biblatex-chicago}
+#+LATEX_HEADER: \addbibresource{refs.bib}
+#+LATEX_HEADER: \usepackage{placeins}
+#+LATEX_CLASS_OPTIONS: [hidelinks]
+
+
+#+BEGIN_ABSTRACT
+     Abstract stuff!
+#+END_ABSTRACT
+
+* Introduction and Problem Statement
+
+In the City of Seattle, parklets and streateries are privately funded
+and maintained areas that convert one or more on-street parking spots
+for private vehicles, into open spaces for the public at large.
+During businesses hours, parklets and streateries can serve as
+extensions of specific businesses, although in the off hours the
+spaces are required to stay open for public use
+\parencite{Seattle2015a}.  Like any traditional park in Seattle,
+parklets provide open space for the general use of residents.  The
+only difference is scale, and parklets are usually composed of some
+sort of built structure off the surface of the street (see Figure
+[[fig:parklets]]).
+
+
+#+CAPTION: From left to right, parklets outside Cortona Café, Montana Bar, and SIFF theater \parencite{Seattle2015a, Seattle2015b, Lewis2015}
+#+ATTR_LATEX: :width \textwidth
+#+NAME:   fig:parklets
+[[./fig/parklets.pdf]]
+
+Parklets and streateries have gained in popularity recently because of
+the reported benefits they can provide to Seattle.  Parklets may
+provide benefits to society, the economy, the environment, and human
+health in urban areas. They may achieve these goals through the
+creation of public spaces in urban areas, the contributions they can
+make to neighborhood identity, their ability to improve pedestrian
+traffic to local businesses, their capacity to disincentive
+driving, and physically separate individuals from cars.
+
+While parklets present these potential benefits to the City of
+Seattle, they may also pose risks to human health that have not yet
+been studied. Parklets and streateries are located along side
+roadways, potentially exposing individuals to higher levels of air and
+noise pollution than they otherwise would be inside the sponsoring
+business.  This paper examines the tensions between the positive and
+negative attributes of parklets through a literature review of the
+subject, and through a small-scale field air and noise pollution
+study. In this study, black carbon is considered as a surrogate for
+air pollution stemming from transportation more generally.
+Specifically, this paper asks:
+
+- Are individuals exposed to more air and noise pollution within
+  parklets than they would be inside the neighboring business?
+- And if so, are the levels dangerous to human health?
+
+Given Seattle's plans to extend the now permanent parklet program, and
+incentivize streateries throughout Seattle \parencite{Seattle2015a},
+this type of research is especially important.
+
+The following sections of this paper review the relevant literature
+and history of parklets including their reported benefits and
+implementation in Seattle and elsewhere in order to create a framework
+of understanding.  Once this is established, we will discuss the
+methodology, results, and analysis of our study that compares the
+levels of black carbon and noise between parklets and their sponsoring
+businesses.
+
+* Literature review 
+
+Seattle’s growing parklet program follows the successes of other
+programs across the United States, and specifically the program in San
+Francisco, California.  While the idea for street cafes is not new,
+San Francisco first coined the term parklet with their conversion of a
+parking space into a public park in 2005.  While the parklet was open
+for just two hours, the action started a movement that has swept
+through the country.  The San Francisco art studio that created this
+two hour park helped establish a now worldwide, annual event called
+PARK(ing) Day that occurs every September.  The event allows anyone to
+create a temporary one day park, and eventually inspired city planners
+to establish a formal parklet program in 2009
+\parencite[][5]{Seattle2015c}.
+
+After the successes of parklets in San Francisco and other cities
+around the world, Seattle began a parklet pilot program in 2013.
+Between 2013 and 2014 six parklets were installed in the city.  The
+first parklet to open its figurative doors was outside of a popular
+bar in Capitol Hill, Montana Bar.  The other five locations are
+supported by various businesses including ice cream parlors, cafes,
+and movie theaters.  The owners of these six existing parklets must
+apply for annual permits, as these spaces are considered temporary.
+Temporary in the sense that they are not permanently connected to the
+ground, and the right-of-way space can be converted back to parking if
+the need arises in the future \parencite[][5]{Seattle2015c}.  Soon
+after the six installations were complete, the city conducted
+evaluations of the spaces "to determine how well they activated
+streets and provided useful public spaces for neighborhood businesses,
+residents, and visitors" \parencite{Seattle2015a}.  With the measured
+success of the parklets, the pilot program became permanent in 2015,
+and the city formalized guidelines in a handbook available online.
+Due to the popularity of the parklet program, the city has also
+embarked upon a streateries pilot program that began this year.
+
+Now, there are three new parklets currently approved by the city and
+going through the design build stages.  In addition, there are eight
+new streatery projects in the pipeline for completion later this year
+\parencite{Seattle2015a}.
+
+
+The idea of parklets has spread quickly around the United States
+because of the potential benefits they can provide to society, the
+economy, the environment, and human health, as enumerated below.
+
+** Society
+
+Private automobiles have long dominated city streets.  Space along the
+right-of-way for pedestrians has been relegated to slivers of
+sidewalks in between buildings and cars.  Parklets and streateries
+expand the public space available to residents and visitors, and can
+bring a human element to streets.  By encouraging pedestrians to
+linger and have more space to congregate, parklets work to bring the
+street to a more human scale, that can provide more opportunities for
+social interactions and bonding among neighbors.  100 percent of the
+individuals surveyed by the City of Seattle stated that they believe
+"parklets provide a useful neighborhood space" and 90 percent would
+like more parklets in Seattle \parencite{Seattle2015a}.
+
+** Economy
+
+Parklets and streateries can bring more foot traffic to businesses
+through the provision of interesting aesthetics and open spaces at eye
+level.  These attributes of parklets also work to encourage
+pedestrians to linger longer, creating more potential opportunities
+for businesses to lure individuals into their stores to purchase more
+goods than they normally would on a street without parklets.  The
+parklet can accomplish these feats all while still allowing for normal
+flow of traffic and ample street parking (the six parklets have
+removed 0.001 percent of all parking in the city).  As a result,
+Seattle businesses have been, and continue to be, very enthusiastic
+about adding public space to their blocks \parencite{Seattle2015c}.
+"70% of businesses believe parklets enhance the look and feel of their
+neighborhood" and 80 percent "believe parklets benefit the business
+community" \parencite{Seattle2015a}.  "While there haven’t been any
+comprehensive studies yet, individual businesses have reported as much
+as a 20 percent increase in annual revenue when hosting a parklet.
+And because streateries have a direct revenue benefit to the hosting
+business, [they] are likely to recoup investments in a short time"
+\parencite{Seattle2015b}.
+
+** Environment
+
+Studies have shown that reducing parking spaces can work as a
+disincentive to driving.  For instance, one study in New York City
+looked at the Park Slope, Brooklyn and Jackson Height, Queens
+neighborhoods.  They found that even though Park Slope is wealthier
+and has higher rates of home and car ownership, its residents drive
+less than those living in Jackson Heights.  In fact, "Jackson Heights
+residents are 45 percent more likely to drive to work in the Manhattan
+Central Business District and 28 percent more likely to commute by car
+in general."  The researchers believed this was due to the
+availability of parking in Jackson Heights.  "31 percent of car owners
+[in Jackson Heights] have a parking spot at home, compared to only 5
+percent of Park Slope drivers."  So those in Park Slope do not want to
+leave their curb parking and drive when there is a risk they may never
+find another spot upon return.  Residents of Jackson Heights do not
+have to worry about parking availability and therefore choose to drive
+more often \parencite{Kaehny2008}.
+
+Parklets are one, albeit small, method used to reduce parking in
+Seattle that could overtime discourage driving.  As more parklets are
+installed and take more street parking away while also providing more
+bike parking spaces, eventually they could help reduce the number of
+drivers on Seattle’s streets.  If this were to happen, there could be
+a comparable reduction in the amount of tailpipe emissions on the
+streets of Seattle that could work to improve the air quality in the
+city.  Many parklets also have a vegetation component, where trees or
+shrubs are planted in or around the space.  These plantings creating
+more of a sense of nature in the city, and can also provide
+environmental benefits.  Not only can vegetation reduce the amount of
+stormwater flowing through streets during storm events, they can also
+help filter contaminants from stored stormwater and the air
+\parencites[4]{Kollin2009}[3]{Phillips2013}[197]{Dreistadt1990}.
+Additionally, simply having views of vegetation has been shown to
+improve mental health and decrease stress levels in individuals
+\parencite{McPherson2002}, and finally, vegetation within parklets,
+when compared to straight impervious surfaces, can increase the
+aesthetic appeal of the street area
+\parencites[10]{McPherson2002}[2638]{Jenerette2011}.
+
+** Human Health
+
+If parklets can incentive a reduction in cars driving to the area, and
+provide residents an area to mentally relax in the city, they can
+perhaps reduce risks to human health.  Vehicles are large emitters of
+several air pollutants such as carbon monoxide, particulate matter,
+and nitrogen dioxide that have serious impacts to human health such as
+lung infections, heart disease, and cancer
+\parencite[358--359]{Bae2004}.  If these pollutant concentrations can
+be at all reduced through reductions in vehicle use, this would
+represent a benefit to humans.  Further, as parklets must include
+vegetation (SDOT, 2015) then these parklets can also actively work to
+remove air pollutants from the atmosphere.  Vegetation can uptake
+"ozone, nitrogen dioxide, sulfur dioxide, particulate matter less than
+10 microns in size," carbon monoxide, nitrogen oxides, and halogens
+\parencites[3]{Phillips2013}[197]{Dreistadt1990}[1126]{Davies2011} many
+of which are emitted by vehicles.  Photosynthesis allows vegetation to
+take in these chemicals and store them in their biomass, just as
+humans would breath in these pollutants while walking down the street
+\parencite[121]{Liu2012}.  Vegetation can also filter contaminants of
+the system through their root network, when particulates collect on
+leaves through dry deposition, rainwater can rinse these contaminants
+into the soil to be filtered out by the roots
+\parencites[197]{Dreistadt1990}[S122]{Akbari2002}.
+
+Finally, with more protected space for humans in and around the
+right-of-way, there could be a decrease in the number of car on
+pedestrian accidents and fatalities as a result of parklets.  Within
+parklets, individuals feel cordoned of from vehicle traffic through
+barriers.  Parklets not only provide physical safety, but also allow
+individuals to feel safer, and therefore comfortable spending time in
+the spaces.
+
+\FloatBarrier
+* Research Methodology
+This section describes the methods we used to draw comparisons between
+indoor pollution and outdoor pollution at several Seattle parklet
+locations. Here, we selected three parklet locations, together with
+each parklet's adjacent business. We conducted several paired samples
+of black carbon, and several paired samples of noise at each of the
+three locations. Finally, we conducted statistical analysis to test
+how and whether the indoor environment credibly differed from the
+outdoor environment at each site.
+
+Measurements were collected from three of the six existing Seattle
+parklets. These locations were selected in part for convenience
+reasons, as well as for the varied nature of the environments. The
+first, Cortona Café is located in a reasonably quiet residential area
+with light road traffic. The second, Montana Bar, is located in the
+bustling Capitol Hill neighborhood along a heavily trafficked
+thoroughfare. The final location, SIFF Theater / Uptown Espresso, is
+located in a moderately quiet commercial neighborhood district in
+uptown, but adjacent to a frequent bus line. While the uptown location
+is adjacent to the SIFF Theater at the block's end, we conducted the
+indoor sample mid-block at Uptown Espresso due to hours and access of
+the theater. Despite not being perfectly adjacent we believe the
+locations close enough to to be comparable. See figure [[fig:map]] for
+location of sampling sites.
+
+#+CAPTION: Location of sampling sites
+#+ATTR_LATEX: :width 0.7\textwidth
+#+NAME:   fig:map
+[[./fig/parklet-map.pdf]]
+
+Sound measurements were collected using the Decibel 10th
+application on two Apple mobile devices. This application collects a
+maximum of 15 minutes continuous decibel sample, and stores average
+and peak decibel readings aggregated in 0.1 second intervals. We do
+not believe the combination of consumer electronics coupled with the
+Decibel 10th application to be properly calibrated to give accurate
+decibel readings. We did ensure, however, to conduct paired samples
+with the same device at the same location, thereby maintaining
+consistency at each location. 
+
+We conducted Black carbon measurements using two Aethlabs AE-51
+aethelometers loaned to us by the Puget Sound Clean Air Agency. While
+we would have preferred to measured diesel emissions (in particular,
+the hazardous PM 2.5) directly, black carbon is correlated with DPM
+and is much easier to measure. Therefore, AE-51 instruments were used
+to measure black carbon as a surrogate for DPM. The AE-51 aethelometer
+was capable of taking samples at a various frequencies and at several
+flow rates. We ultimately decided on a 150ml/second flow rate as we
+felt that setting would result in less "noisy" samples. Similarly, we
+opted for a shorter 30 second sample interval in order to similarly
+reduce effects of measurement error in a smaller sample.
+
+Each paired sample consisted of two 15--30 minute collection
+periods.[fn:: Noise samples were limited to 15 minutes due to
+limitation of the Decibel 10th mobile app] Noise and
+black carbon samples were taken concurrently at each location. Indoor
+/ outdoor were taken back to back in order to increase comparability
+at the site. The time of day for each paired sample was selected based
+on when we hypothesized that each location would enjoy their heaviest
+use.  The natural business hours for these parklets vary by
+establishment.  Specifically, We hypothesized that the Montana Bar and
+parklet would be most used at night, the Uptown Alliance (SIFF)
+parklet and theater would be busiest in the mid to late afternoon, and
+that the Cortona Café would have a primarily mid-morning to afternoon
+crowd.  Measurements were collected during these "prime times" when
+the parklet and business there thought to enjoy peak business.  In
+total, we conducted three paired samples per location over a roughly
+one week period from Friday May 15th through Monday May 25th, 2015.
+
+Once the samples were collected, we post-processed and combined the
+samples, adding "site" and "outdoor" fields to the data. We then
+performed an exploratory data analysis using a variety of
+visualization techniques this post-processing, exploratory analysis,
+and visualization were conducted using the R programming language and
+the Ggplot2 plotting package \parencite{R2015,
+Wickham2009}. Ultimately, we chose not to attempt to filter impossible
+or extreme values from the black carbon sample. This is in contrast to
+our previous work, where we simply truncated negative values. Upon
+reflection, we believe this misrepresents the measurement uncertainty
+of the AE-51 device. Therefore here, we chose statistical methods
+robust in the face of very high / very low values, and instead chose
+to let the measurement uncertainty persist through our analysis.
+
+After conducting an initial exploration of our data, we made
+statistical comparisons of paired samples using the BEST method and
+accompanying software \parencite{Kruschke2013, Kruschke2014}. In
+total, six such comparisons were made---one each for noise and black
+carbon at each sample location. We selected the BEST method as opposed
+to, for example, a t-test due to several factors. The first was the
+apparent non-normality of our data. While this could have been
+overcome through the use of bootstrapping, the BEST approach yielded
+other advantages including, the rich set of inference afforded by a
+full Bayesian posterior distribution. This includes an estimate of
+parameters including effect size, difference of means ($\mu$),
+standard deviations ($\mu$), an estimation of normality ($\nu$), with
+a full accounting of uncertainty in each case. This method, by its use
+of the long-tailed t-distribution for the data model, can accommodate
+outlier values more appropriately than can be done using a t-test.
+
+As described in \textcite{Kruschke2013}, rather than being a
+statistical test, the BEST method obtains a posterior distribution of
+several model parameters representing quantities of interest. Here,
+minimally informative or vague prior probabilities are combined with
+the data and a likelihood model to define the posterior distribution
+as described graphically in figure [[fig:bayes]] and mathematically in
+the following equation \parencite[576]{Kruschke2013}:
+
+\begin{equation}
+     p(\mu_1, \sigma_1, \mu_2, \sigma_2, \nu|D) =
+\frac{p(D|\mu_1, \sigma_1, \mu_2, \sigma_2, \nu)
+\times
+p(\mu_1, \sigma_1, \mu_2, \sigma_2, \nu)}
+{p(D)}
+\end{equation}
+
+#+NAME: fig:bayes
+#+CAPTION: Read from the bottom up, the outdoor samples $Y_{1i}$ and indoor samples $Y_{2i}$ are assumed described by t distributions. Chosen priors for the model are at the top of the plot and point to the corresponding parameters in the t distributions. Diagram taken from \textcite[575]{Kruschke2013}.
+#+ATTR_LATEX: :width 0.7\textwidth
+[[./fig/modelspec.pdf]]
+
+\FloatBarrier
+
+* Results from Data Collection and Analysis
+This section describes our findings from examining our collected
+samples and then making statistical comparisons. Our initial
+exploratory analysis immediately revealed some apparent differences in
+the indoor vs. outdoor samples at each site.
+
+A visual exploration of noise samples (see figure [[fig:noise-density]])
+suggested higher decibel levels indoors than outdoors. This was
+particularly pronounced at the Montana bar location. The SIFF location
+similarly appeared to have modestly higher noise level indoors than
+outdoors, with otherwise very similar, but density plots. The Cortona
+case was somewhat more ambiguous, in that indoors we see a more
+pronounced peak at around 73 decibels, but overall greater apparent
+variation outdoors.
+
+#+NAME: fig:noise-density
+#+CAPTION: Density plot of indoor and outdoor noise readings at the three study locations. Density (y axis) represents the proportion of samples given at each decibel level along the x axis.    
+#+ATTR_LATEX: :width \textwidth
+[[../results/figures/noise-density.pdf]]
+
+A similar exploration of black carbon levels (figure
+[[fig:blackcarbon-density]]) suggested nearly inverted results as compared
+to the noise samples. Here, we see higher outdoor black carbon levels
+at the Montana and SIFF locations and higher indoor black carbon
+levels at Cortona Café. The distribution of counts were generally
+quite "peaky," with slightly higher variation in the outdoor Cortona
+and SIFF samples. The long tails on these distributions lend
+additional support to the assumed data model in BEST method. 
+
+
+
+#+NAME: fig:blackcarbon-density
+#+CAPTION: Density plot of indoor and outdoor black carbon readings at the three study locations. Density (y axis) represents the proportion of samples given at each decibel level along the x axis.    
+#+ATTR_LATEX: :width \textwidth
+[[../results/figures/blackcarbon-density.pdf]]
+
+\FloatBarrier
+
+Following our descriptive exploration of the data, we ran our BEST
+analysis in order to test our impression of the data. Across the
+board, we found "statistically significant" differences the samples in
+each comparison, using the standard of a 95% credible interval that
+the difference in means does not equal zero. Importantly, however, we
+did not uniformly find effect sizes of /practical/ significance. A
+summary of these findings is in table [[tb:findings]] and complete
+visualizations of findings is in the appendix.
+
+#+NAME: tb:findings
+#+CAPTION: Summary findings of BEST comparison between indoor vs. outdoor
+|--------------+---------+-------------------------------------------------|
+| Pollutant    | Site    | Summary                                         |
+|--------------+---------+-------------------------------------------------|
+| Noise        | Cortona | Outdoor > indoor, miniscule effect size         |
+| Noise        | Montana | Outdoor < indoor, large effect size             |
+| Noise        | SIFF    | Outdoor < indoor, small effect size             |
+| Black Carbon | Cortona | Outdoor < indoor, small to moderate effect size |
+| Black Carbon | Montana | Outdoor > indoor, large effect size             |
+| Black Carbon | SIFF    | Outdoor > indoor, small to moderate effect size |
+|--------------+---------+-------------------------------------------------|
+
+
+\FloatBarrier
+* Discussion and Conclusions
+From the results in the previous section, we can see that the
+potential for levels of noise and black carbon alike, are dependent on
+the location. Given that we have sampled at only three parklets, we
+cannot generalize to say that parklets are generally better or worse
+than the adjacent business in terms of exposure to air or noise
+pollution.
+
+Further, even where we can say that exposure to one pollutant was
+higher in a given context, there remains the question of whether or
+not there is threshold effect. In other words, there may be a statistically
+discernible difference in exposure, and the effect size may be large,
+yet that doesn't answer the question of whether or not harm may result
+at the higher level.
+
+In terms of noise, decibel levels above 85 can be harmful to humans,
+especially if there is prolonged exposure to these levels in terms of
+a long one time exposure or a recurring exposure even at short
+lengths.  130 dBs is the common threshold for pain over any length of
+time \parencite{Bae2015a}. Only indoors at the Montana Bar did we
+estimate a decibel level (87) that exceeds the harm
+threshold.[fn:: Again, please note the limitation of our uncalibrated noise
+sampling equipment. In practice we expect 2db to be well within the
+realm of measurement error of our devices.]
+
+For black carbon, the case for harm indoors or outdoors at any of our
+studies sites is even more tenuous. The highest credible estimate for
+black carbon we found was outdoors at the Montana bar at .73mg/m3. For
+comparison, various federal agencies including OSHA, NIOSH, and ACGIH
+seem to agree that exposure to 3.5mg/m3 over a time weighted average
+of 8 hours is the limit. Above that, various health related risks such
+as myocardial dystrophy, pulmonary fibrosis, pneumoconiosis, the
+accumulation of dust in pulmonary system, and respiratory damage,
+causing bronchitis and decreased lung function \parencite{OSHA2012}.
+
+At least in the relatively unpolluted areas we sampled in Seattle,
+this paper holds that the likely social and environmental benefits of
+parklets almost certainly outweigh any potential harms. Further, even
+if air pollution numbers were uniformly higher outside than in, we do
+not believe that individuals are "safe" from air pollution inside
+businesses as windows are often open and we still need to walk along
+streets to enter these places of business.  Further still, the higher
+levels observed in our study almost uniformly do not rise to a level
+that associated with threats to human health.
+
+\printbibliography
+
+\clearpage
+* Appendix -- Statistical Results
+#+CAPTION: Cortona Café BEST noise results
+[[../results/figures/best_noise_cortona.pdf]]
+
+#+CAPTION: Montana Bar BEST noise results
+[[../results/figures/best_noise_montana.pdf]]
+
+#+CAPTION: SIFF BEST noise results
+[[../results/figures/best_noise_siff.pdf]]
+
+
+#+CAPTION: Cortona Café BEST black carbon results
+[[../results/figures/best_bc_cortona.pdf]]
+
+#+CAPTION: Montana Bar BEST black carbon results
+[[../results/figures/best_bc_montana.pdf]]
+
+#+CAPTION: SIFF BEST black carbon results
+[[../results/figures/best_bc_siff.pdf]]
