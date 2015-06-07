@@ -188,7 +188,7 @@ drivers on Seattle’s streets.  If this were to happen, there could be
 a comparable reduction in the amount of tailpipe emissions on the
 streets of Seattle that could work to improve the air quality in the
 city.  Many parklets also have a vegetation component, where trees or
-shrubs are planted in or around the space.  These plantings creating
+shrubs are planted in or around the space.  These plantings create
 more of a sense of nature in the city, and can also provide
 environmental benefits.  Not only can vegetation reduce the amount of
 stormwater flowing through streets during storm events, they can also
@@ -216,20 +216,20 @@ vegetation (SDOT, 2015) then these parklets can also actively work to
 remove air pollutants from the atmosphere.  Vegetation can uptake
 "ozone, nitrogen dioxide, sulfur dioxide, particulate matter less than
 10 microns in size," carbon monoxide, nitrogen oxides, and halogens
-\parencites[3]{Phillips2013}[197]{Dreistadt1990}[1126]{Davies2011} many
-of which are emitted by vehicles.  Photosynthesis allows vegetation to
-take in these chemicals and store them in their biomass, just as
-humans would breath in these pollutants while walking down the street
-\parencite[121]{Liu2012}.  Vegetation can also filter contaminants of
-the system through their root network, when particulates collect on
-leaves through dry deposition, rainwater can rinse these contaminants
-into the soil to be filtered out by the roots
+\parencites[3]{Phillips2013}[197]{Dreistadt1990}[1126]{Davies2011}
+many of which are emitted by vehicles.  Photosynthesis allows
+vegetation to take in these chemicals and store them in their biomass,
+just as humans would breath in these pollutants while walking down the
+street \parencite[121]{Liu2012}.  Vegetation can also filter
+contaminants out of the system through their root network, when
+particulates collect on leaves through dry deposition, rainwater can
+rinse these contaminants into the soil to be filtered out by the roots
 \parencites[197]{Dreistadt1990}[S122]{Akbari2002}.
 
 Finally, with more protected space for humans in and around the
 right-of-way, there could be a decrease in the number of car on
 pedestrian accidents and fatalities as a result of parklets.  Within
-parklets, individuals feel cordoned of from vehicle traffic through
+parklets, individuals feel cordoned off from vehicle traffic through
 barriers.  Parklets not only provide physical safety, but also allow
 individuals to feel safer, and therefore comfortable spending time in
 the spaces.
@@ -257,7 +257,7 @@ uptown, but adjacent to a frequent bus line. While the uptown location
 is adjacent to the SIFF Theater at the block's end, we conducted the
 indoor sample mid-block at Uptown Espresso due to hours and access of
 the theater. Despite not being perfectly adjacent we believe the
-locations close enough to to be comparable. See figure [[fig:map]] for
+locations are close enough to to be comparable. See figure [[fig:map]] for
 location of sampling sites.
 
 #+CAPTION: Location of sampling sites
@@ -275,7 +275,7 @@ decibel readings. We did ensure, however, to conduct paired samples
 with the same device at the same location, thereby maintaining
 consistency at each location. 
 
-We conducted Black carbon measurements using two Aethlabs AE-51
+We conducted black carbon measurements using two Aethlabs AE-51
 aethelometers loaned to us by the Puget Sound Clean Air Agency. While
 we would have preferred to measured diesel emissions (in particular,
 the hazardous PM 2.5) directly, black carbon is correlated with DPM
@@ -284,8 +284,8 @@ to measure black carbon as a surrogate for DPM. The AE-51 aethelometer
 was capable of taking samples at a various frequencies and at several
 flow rates. We ultimately decided on a 150ml/second flow rate as we
 felt that setting would result in less "noisy" samples. Similarly, we
-opted for a shorter 30 second sample interval in order to similarly
-reduce effects of measurement error in a smaller sample.
+opted for a shorter 30 second sample interval in order to reduce
+effects of measurement error in a smaller sample.
 
 Each paired sample consisted of two 15--30 minute collection
 periods.[fn:: Noise samples were limited to 15 minutes due to
@@ -295,12 +295,12 @@ black carbon samples were taken concurrently at each location. Indoor
 at the site. The time of day for each paired sample was selected based
 on when we hypothesized that each location would enjoy their heaviest
 use.  The natural business hours for these parklets vary by
-establishment.  Specifically, We hypothesized that the Montana Bar and
+establishment.  Specifically, we hypothesized that the Montana Bar and
 parklet would be most used at night, the Uptown Alliance (SIFF)
 parklet and theater would be busiest in the mid to late afternoon, and
 that the Cortona Café would have a primarily mid-morning to afternoon
 crowd.  Measurements were collected during these "prime times" when
-the parklet and business there thought to enjoy peak business.  In
+the parklet and business were thought to enjoy peak business.  In
 total, we conducted three paired samples per location over a roughly
 one week period from Friday May 15th through Monday May 25th, 2015.
 
@@ -397,12 +397,13 @@ additional support to the assumed data model in BEST method.
 
 Following our descriptive exploration of the data, we ran our BEST
 analysis in order to test our impression of the data. Across the
-board, we found "statistically significant" differences the samples in
-each comparison, using the standard of a 95% credible interval that
-the difference in means does not equal zero. Importantly, however, we
-did not uniformly find effect sizes of /practical/ significance. A
-summary of these findings is in table [[tb:findings]] and complete
-visualizations of findings is in the appendix.
+board, we found "statistically significant" differences between the
+samples in each comparison, using the standard of a 95% credible
+interval that the difference in means does not equal zero. However,
+the direction of the relationships were not uniform. Equally
+importantly, we did not uniformly find effect sizes of /practical/
+significance. A summary of these findings is in table [[tb:findings]] and
+complete visualizations of findings is in the appendix.
 
 #+NAME: tb:findings
 #+CAPTION: Summary findings of BEST comparison between indoor vs. outdoor
@@ -452,7 +453,8 @@ seem to agree that exposure to 3.5mg/m3 over a time weighted average
 of 8 hours is the limit. Above that, various health related risks such
 as myocardial dystrophy, pulmonary fibrosis, pneumoconiosis, the
 accumulation of dust in pulmonary system, and respiratory damage,
-causing bronchitis and decreased lung function \parencite{OSHA2012}.
+causing bronchitis and decreased lung function can result
+\parencite{OSHA2012}.
 
 At least in the relatively unpolluted areas we sampled in Seattle,
 this paper holds that the likely social and environmental benefits of
